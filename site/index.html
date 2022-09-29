@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AWS SDK Service Pricing Attribute Lister</title>
+    <meta property="og:title" content="AWS SDK Service Lister" />
+    <meta name="twitter:title" content="AWS SDK Service Lister" />
+    <meta
+      property="og:url"
+      content="https://aws-sdk-service-pricing-lister.alanwsmith.com/"
+    />
+    <meta
+      name="description"
+      content="A basic list of the AWS services and attributes available in the AWS SDK"
+    />
+    <meta
+      property="og:description"
+      content="A basic list of the AWS services and attributes available in the AWS SDK"
+    />
+    <meta
+      property="og:image"
+      content="https://aws-sdk-service-pricing-lister.alanwsmith.com/assets/og-image/main.png"
+    />
+    <meta
+      name="twitter:image"
+      content="https://aws-sdk-service-pricing-lister.alanwsmith.com/assets/og-image/main.png"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@theidofalan" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicons/16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicons/32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/assets/favicons/96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="128x128"
+      href="/assets/favicons/128x128.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="196x196"
+      href="/assets/favicons/196x196.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="228x228"
+      href="/assets/favicons/228x228.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="/assets/favicons/152x152.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="167x167"
+      href="/assets/favicons/167x167.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="180x180"
+      href="/assets/favicons/180x180.png"
+    />
+
+    <style>
+      body {
+        background-color: #232946;
+        color: #b8c1ec;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #fffffe;
+      }
+      a {
+        color: #eebbc3;
+        text-decoration: none;
+      }
+      header {
+        padding-top: 18px;
+        padding-bottom: 4px;
+        width: 100%;
+        max-width: 68ch;
+        margin: 0 auto;
+        border-bottom: 1px solid #888;
+      }
+      main {
+        width: 100%;
+        max-width: 68ch;
+        margin: 0 auto;
+      }
+      footer {
+        width: 100%;
+        max-width: 68ch;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 60px;
+        padding-bottom: 12px;
+        font-size: 0.9rem;
+      }
+    </style>
+    <script>
+      const kickoff = () => {
+        console.log('Kicking Off')
+        fetch('script/services.txt')
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error('There was a problem getting the data')
+            }
+            return response.text()
+          })
+          .then(
+            (data) =>
+              (document.getElementById('service_listing').innerText = data)
+          )
+          .catch((error) => {
+            console.error('Fetch Error: ', error)
+          })
+      }
+      document.addEventListener('DOMContentLoaded', kickoff)
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="/">Home</a> ~
+      <a href="https://www.alanwsmith.com/">alanwsmith.com</a> ~
+      <a href="https://links.alanwsmith.com">links</a> ~
+      <a href="https://podcast.alanwsmith.com/">podcast</a>
+    </header>
+
+    <main>
+      <h1>AWS SDK Serivce Pricing Attributes Lister</h1>
+      <p>
+        This is a dump of the services and attributes available in the AWS
+        pricing SDKs. I put this together becuse I needed to get the list of EC2
+        attributes for a
+        <a href="aws-ec2-instance-pricing.alanwsmith.com"
+          >blender rendering pricing comparison</a
+        >
+        . I'm posting it here in hopes it'll save you some time.
+      </p>
+
+      <p>
+        This page doesn't update live. It was last updated on Sept. 29, 2022.
+        You can grab the script and run it yourself if you want the most recent
+        values.
+      </p>
+      <pre><code id="service_listing"></code></pre>
+    </main>
+
+    <footer>
+      made by <a href="https://twitter.com/TheIdOfAlan">alan w. smith</a>
+      <br />
+      who has a <a href="https://www.alanwsmith.com">website</a> and a
+      <a href="https://podcast.alanwsmith.com/">podcast</a> <br />
+      among other <a href="https://links.alanwsmith.com">things</a>
+    </footer>
+  </body>
+</html>
