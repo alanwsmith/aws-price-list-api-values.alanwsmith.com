@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "maxIopsvolume", "attribute_values": ["16000", "250 - based on 1 MiB I/O size", "40 - 200", "500 - based on 1 MiB I/O size", "64000"]}

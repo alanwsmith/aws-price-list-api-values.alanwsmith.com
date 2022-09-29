@@ -1,0 +1,1 @@
+{"service_code": "comprehendmedical", "attribute": "operation", "attribute_values": ["DetectEntities", "DetectPHI", "EntitiesDetection", "ICD10CMInference", "InferICD10CM", "InferRxNorm", "InferSNOMEDCT", "PHIDetection", "RxNormInference", "SNOMEDCTInference"]}

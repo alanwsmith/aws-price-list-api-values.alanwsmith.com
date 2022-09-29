@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "instanceFamily", "attribute_values": ["Compute optimized", "FPGA Instances", "General purpose", "GPU instance", "Machine Learning ASIC Instances", "Media Accelerator Instances", "Memory optimized", "Micro instances", "Storage optimized"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonKinesisFirehose", "attribute": "operation", "attribute_values": ["DataFormatConversion", "DynamicPartitioning", "GetKinesisRecords", "PutRecord", "PutRecordBatch", "RunVpcInstance", "VpcBandwidth"]}

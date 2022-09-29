@@ -1,0 +1,1 @@
+{"service_code": "AWSStorageGateway", "attribute": "feeDescription", "attribute_values": ["Fee for peak concurrent data retrieval in a month", "Fee for retrieving virtual tape from Glacier", "Fee for uploaded bytes into Storage Gateway", "Fixed fee for every hour or partial hour that your accelerator runs", "Pro-rated fee for deleting an archived virtual tape prior to 90 days"]}

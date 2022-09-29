@@ -1,0 +1,1 @@
+{"service_code": "AmazonS3", "attribute": "transferType", "attribute_values": ["AWS Inbound", "AWS Outbound", "InterRegion Inbound", "InterRegion Outbound", "IntraRegion Inbound", "IntraRegion Outbound"]}

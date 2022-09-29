@@ -1,0 +1,1 @@
+{"service_code": "AmazonFSx", "attribute": "operation", "attribute_values": ["CreateFileCache:Lustre", "CreateFileSystem:Lustre", "CreateFileSystem:ONTAP", "CreateFileSystem:OpenZFS", "CreateFileSystem:Windows"]}

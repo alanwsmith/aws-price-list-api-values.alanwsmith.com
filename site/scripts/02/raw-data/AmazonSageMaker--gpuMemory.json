@@ -1,0 +1,1 @@
+{"service_code": "AmazonSageMaker", "attribute": "gpuMemory", "attribute_values": ["0", "12", "128", "16", "192", "24", "256", "64", "96", "N/A"]}

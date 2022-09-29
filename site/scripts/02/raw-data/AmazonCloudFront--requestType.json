@@ -1,0 +1,1 @@
+{"service_code": "AmazonCloudFront", "attribute": "requestType", "attribute_values": ["CloudFront-Request-HTTP-Proxy", "CloudFront-Request-HTTPS-Proxy", "CloudFront-Request-HTTPS-Proxy-Field-Level-Encryption", "CloudFront-Request-Origin-Shield", "CloudFront-Request-Tier1", "CloudFront-Request-Tier2"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "gpuMemory", "attribute_values": ["1 GiB", "2 GiB", "4 GiB", "8 GiB"]}

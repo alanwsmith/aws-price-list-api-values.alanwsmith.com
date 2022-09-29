@@ -1,0 +1,1 @@
+{"service_code": "AmazonGameLift", "attribute": "operation", "attribute_values": ["ConsumeEC2Instance", "ConsumeFlexMatchMatchmakingHrs", "ConsumeFlexMatchPlayerPackages", "ConsumeLinuxFleetIQOnDemand", "ConsumeLinuxGameLiftInstance", "ConsumeWindowsFleetIQOnDemand", "ConsumeWindowsGameLiftInstance", "DailyActiveUser"]}

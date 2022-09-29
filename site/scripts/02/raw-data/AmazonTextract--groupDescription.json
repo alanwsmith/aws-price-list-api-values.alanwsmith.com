@@ -1,0 +1,1 @@
+{"service_code": "AmazonTextract", "attribute": "groupDescription", "attribute_values": ["Number of pages processed using AnalyzeDocument", "Number of pages processed using AnalyzeExpense", "Number of pages processed using AnalyzeID", "Number of pages processed using DetectDocumentText", "Number of pages processed using DocumentTextDetection APIs"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonElastiCache", "attribute": "operation", "attribute_values": ["CreateCacheCluster", "CreateCacheCluster:0001", "CreateCacheCluster:0002", "CreateCacheSnapshot", "GlobalDatastore:Redis"]}

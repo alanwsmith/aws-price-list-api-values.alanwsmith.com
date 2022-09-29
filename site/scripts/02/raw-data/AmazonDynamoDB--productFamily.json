@@ -1,0 +1,1 @@
+{"service_code": "AmazonDynamoDB", "attribute": "productFamily", "attribute_values": ["Amazon DynamoDB Export Data Size", "Amazon DynamoDB Import Data Size", "Amazon DynamoDB On-Demand Backup Storage", "Amazon DynamoDB PayPerRequest Throughput", "Amazon DynamoDB Restore Data Size", "API Request", "Database Storage", "DDB-Operation-ReplicatedWrite", "Provisioned IOPS"]}

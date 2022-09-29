@@ -1,0 +1,1 @@
+{"service_code": "AmazonSageMaker", "attribute": "component", "attribute_values": ["AsyncInf", "BatchTransform", "DataWrangler-Interactive", "DataWrangler-Processing", "Hosting", "N/A", "Notebook", "Processing", "RStudio:RServer", "RStudio:RSession", "RStudio:RSessionGateway", "Studio-Notebook", "Training"]}

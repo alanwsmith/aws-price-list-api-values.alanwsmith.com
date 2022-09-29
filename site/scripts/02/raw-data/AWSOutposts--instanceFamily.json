@@ -1,0 +1,1 @@
+{"service_code": "AWSOutposts", "attribute": "instanceFamily", "attribute_values": ["Compute optimized", "General purpose", "GPU instance", "Memory optimized", "Storage optimized"]}

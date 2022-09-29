@@ -1,0 +1,1 @@
+{"service_code": "AmazonEFS", "attribute": "storageClass", "attribute_values": ["General Purpose", "Infrequent Access", "One Zone-General Purpose", "One Zone-Infrequent Access"]}

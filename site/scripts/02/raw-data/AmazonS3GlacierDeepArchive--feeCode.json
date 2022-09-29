@@ -1,0 +1,1 @@
+{"service_code": "AmazonS3GlacierDeepArchive", "attribute": "feeCode", "attribute_values": ["S3-Bulk-Retrieval", "S3-Standard-Retrieval", "S3:EarlyDelete-GDA"]}

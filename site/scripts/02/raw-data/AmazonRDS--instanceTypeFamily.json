@@ -1,0 +1,1 @@
+{"service_code": "AmazonRDS", "attribute": "instanceTypeFamily", "attribute_values": ["M1", "M2", "M3", "M4", "M5", "M5d", "M6G", "M6GD", "M6i", "ProvisionedAMR", "ProvisionedFMR", "R3", "R4", "R5", "R5b", "R5d", "R6G", "R6GD", "R6i", "ServerlessAMR", "ServerlessFMR", "T1", "T2", "T3", "T4G", "X1", "X1e", "X2G", "Z1D"]}

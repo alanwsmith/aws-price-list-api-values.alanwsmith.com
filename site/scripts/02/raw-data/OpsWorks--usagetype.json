@@ -1,0 +1,1 @@
+{"service_code": "OpsWorks", "attribute": "usagetype", "attribute_values": ["BoxUsage", "OpsWorks-Chef-Automate", "OpsWorks-Puppet-Enterprise"]}

@@ -1,0 +1,1 @@
+{"service_code": "AWSMediaConnect", "attribute": "transferType", "attribute_values": ["AWS Inbound", "AWS Outbound", "AWS Outbound Reserved", "Inter Region Peering Data Transfer Inbound", "Inter Region Peering Data Transfer Outbound", "InterRegion Inbound", "InterRegion Outbound", "IntraRegion", "IntraRegion Entitlement In", "IntraRegion Entitlement Out"]}

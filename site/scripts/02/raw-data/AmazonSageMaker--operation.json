@@ -1,0 +1,1 @@
+{"service_code": "AmazonSageMaker", "attribute": "operation", "attribute_values": ["Canvas", "CreateLabelingJob", "CreateModel", "CreateVolume-Gp2", "Invoke-Endpoint", "PayPerRequestThroughput", "RegisterDevices", "ReportTotalEdgeModels", "RunInstance", "Serverless", "StartHumanLoop", "TimedStorage"]}

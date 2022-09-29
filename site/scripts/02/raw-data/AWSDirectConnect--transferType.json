@@ -1,0 +1,1 @@
+{"service_code": "AWSDirectConnect", "attribute": "transferType", "attribute_values": ["InterRegion Inbound", "InterRegion Outbound", "IntraRegion Inbound", "IntraRegion Outbound", "SiteLink Data Transfer"]}

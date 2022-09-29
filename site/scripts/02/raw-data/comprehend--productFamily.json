@@ -1,0 +1,1 @@
+{"service_code": "comprehend", "attribute": "productFamily", "attribute_values": ["API Calls", "Custom Classification", "Custom Entities", "Dominant Language Detection", "Entity Detection", "Key Phrases Detection", "Sentiment Analysis", "Syntax Analysis", "Topic Modeling"]}

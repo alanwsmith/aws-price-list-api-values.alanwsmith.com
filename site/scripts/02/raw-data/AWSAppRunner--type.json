@@ -1,0 +1,1 @@
+{"service_code": "AWSAppRunner", "attribute": "type", "attribute_values": ["AutomaticDeployment", "Build-mins", "GB-hours", "Provisioned-GB-hours", "vCPU-hours"]}

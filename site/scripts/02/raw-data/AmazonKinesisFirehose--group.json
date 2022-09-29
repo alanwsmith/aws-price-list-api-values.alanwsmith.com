@@ -1,0 +1,1 @@
+{"service_code": "AmazonKinesisFirehose", "attribute": "group", "attribute_values": ["Batch format conversion", "Batch Processing", "Dynamic Partitioning", "Event-by-Event Processing", "VPC"]}

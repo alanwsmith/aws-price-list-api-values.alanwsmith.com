@@ -1,0 +1,1 @@
+{"service_code": "AmazonRDS", "attribute": "vcpu", "attribute_values": ["0", "1", "12", "128", "16", "2", "24", "32", "4", "40", "48", "64", "8", "96"]}

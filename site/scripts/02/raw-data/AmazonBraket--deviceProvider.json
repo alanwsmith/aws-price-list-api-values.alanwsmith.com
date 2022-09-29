@@ -1,0 +1,1 @@
+{"service_code": "AmazonBraket", "attribute": "deviceProvider", "attribute_values": ["D-Wave", "IonQ", "OQC", "Rigetti", "Xanadu"]}

@@ -1,0 +1,1 @@
+{"service_code": "AWSBackup", "attribute": "storagetype", "attribute_values": ["AWSBackup-DataTransfer", "Cold", "ColdPartial", "Jobs", "Warm", "WarmPartial"]}

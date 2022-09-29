@@ -1,0 +1,1 @@
+{"service_code": "AmazonRekognition", "attribute": "group", "attribute_values": ["Face Vector Storage", "Inference API", "Rekognition Image API Requests", "Rekognition Video API Requests", "Rekognition Video API Requests - Archived Content", "Rekognition Video API Requests - Live Streams", "Training API"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "transferType", "attribute_values": ["AWS Inbound", "AWS Outbound", "InterRegion Inbound", "InterRegion Outbound", "IntraRegion"]}

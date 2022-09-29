@@ -1,0 +1,1 @@
+{"service_code": "AmazonFSx", "attribute": "deploymentOption", "attribute_values": ["Multi-AZ", "N/A", "Persistent", "Single-AZ", "Single-AZ_2N"]}

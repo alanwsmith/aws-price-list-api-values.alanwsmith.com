@@ -1,0 +1,1 @@
+{"service_code": "AmazonCloudWatch", "attribute": "operation", "attribute_values": ["CloudWatchLogs", "DashboardHour", "DynamoDB", "DynamoDBEvents", "evidently", "GetInsightRuleReport", "GetMetricData", "GetMetricWidgetImage", "MetricUpdate", "ParquetConversion", "PrivateLink", "PutLogEvents", "PutRumEvents", "StartQuery"]}

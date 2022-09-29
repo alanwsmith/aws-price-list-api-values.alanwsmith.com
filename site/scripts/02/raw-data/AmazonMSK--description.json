@@ -1,0 +1,1 @@
+{"service_code": "AmazonMSK", "attribute": "description", "attribute_values": ["Broker-hours", "Cluster-hours", "General", "Partition-hours", "Per-GB data egressed", "Per-GB data ingressed", "Storage-hours", "Throughput-hours"]}

@@ -1,0 +1,1 @@
+{"service_code": "awskms", "attribute": "groupDescription", "attribute_values": ["All AWS KMS API requests", "AWS KMS API Requests GenerateDatakeyPair ECC", "AWS KMS API Requests GenerateDatakeyPair RSA", "AWS KMS Asymmetric Requests except RSA_2048API", "AWS KMS Asymmetric Requests RSA_2048", "Monthly free usage of KMS API Requests"]}

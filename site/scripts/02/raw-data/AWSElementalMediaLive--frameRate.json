@@ -1,0 +1,1 @@
+{"service_code": "AWSElementalMediaLive", "attribute": "frameRate", "attribute_values": ["30-60fps", "<=30fps", "NA"]}

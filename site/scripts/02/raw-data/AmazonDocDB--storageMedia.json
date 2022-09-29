@@ -1,0 +1,1 @@
+{"service_code": "AmazonDocDB", "attribute": "storageMedia", "attribute_values": ["AmazonS3", "SSD"]}

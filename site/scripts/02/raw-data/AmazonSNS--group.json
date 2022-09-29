@@ -1,0 +1,1 @@
+{"service_code": "AmazonSNS", "attribute": "group", "attribute_values": ["SNS-FIFO-Requests", "SNS-FIFO-Subscription-Messages", "SNS-FIFO-Subscription-Messages-Payload", "SNS-MDP-AuditReporting", "SNS-MDP-Scanning", "SNS-MonthlyFree-Notifications", "SNS-Publish-Payload", "SNS-Requests-Tier1"]}

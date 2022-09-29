@@ -1,0 +1,1 @@
+{"service_code": "AWSStorageGateway", "attribute": "feeCode", "attribute_values": ["StorageGateway-TapeEarlyDeleteFee", "StorageGateway-TapeGlacierRetrieval", "StorageGateway-TapeRetrieval", "StorageGateway-UploadedBytes"]}

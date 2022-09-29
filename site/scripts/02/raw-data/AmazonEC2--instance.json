@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "instance", "attribute_values": ["T2", "T3", "T3A", "T4G"]}

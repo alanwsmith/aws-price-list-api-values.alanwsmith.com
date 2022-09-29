@@ -1,0 +1,1 @@
+{"service_code": "AmazonFSx", "attribute": "requestType", "attribute_values": ["Read", "Write"]}

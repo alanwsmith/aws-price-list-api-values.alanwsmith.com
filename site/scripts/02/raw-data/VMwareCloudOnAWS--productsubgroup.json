@@ -1,0 +1,1 @@
+{"service_code": "VMwareCloudOnAWS", "attribute": "productsubgroup", "attribute_values": ["CoreService", "Data Transfer", "Direct Connect", "ElasticIP", "NSX", "OneNode", "SiteRecovery", "TransitGateway"]}

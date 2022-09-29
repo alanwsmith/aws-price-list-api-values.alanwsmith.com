@@ -1,0 +1,1 @@
+{"service_code": "AmazonNeptune", "attribute": "instanceFamily", "attribute_values": ["General purpose", "Memory optimized", "T3", "T4G"]}

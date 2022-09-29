@@ -1,0 +1,1 @@
+{"service_code": "AmazonRDS", "attribute": "volumeType", "attribute_values": ["General Purpose", "General Purpose (SSD)", "General Purpose-Aurora", "Magnetic", "Provisioned IOPS", "Provisioned IOPS (SSD)"]}

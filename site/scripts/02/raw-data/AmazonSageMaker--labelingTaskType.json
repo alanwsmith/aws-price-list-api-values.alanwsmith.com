@@ -1,0 +1,1 @@
+{"service_code": "AmazonSageMaker", "attribute": "labelingTaskType", "attribute_values": ["3D Point Cloud", "3D Point Cloud - Multiple Frames", "Any", "Bounding Boxes", "Custom Task", "Image Classification", "Semantic Segmentation", "Text Classification", "Text Spanning"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonDynamoDB", "attribute": "operation", "attribute_values": ["CommittedThroughput", "DelegatedOperations", "GetRecords", "PayPerRequestThroughput"]}

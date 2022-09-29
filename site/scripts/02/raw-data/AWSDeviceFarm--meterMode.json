@@ -1,0 +1,1 @@
+{"service_code": "AWSDeviceFarm", "attribute": "meterMode", "attribute_values": ["Metered Minutes", "Metered Trial Minutes", "Unmetered Minutes", "Unmetered Slot-Month"]}

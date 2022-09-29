@@ -1,0 +1,1 @@
+{"service_code": "AmazonSageMaker", "attribute": "computeType", "attribute_values": ["Accelerated Computing Instances", "Compute Optimized Instances", "Memory Optimized Instances", "N/A", "Standard Instances"]}

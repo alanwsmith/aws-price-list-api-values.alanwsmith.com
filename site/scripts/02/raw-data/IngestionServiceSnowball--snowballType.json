@@ -1,0 +1,1 @@
+{"service_code": "IngestionServiceSnowball", "attribute": "snowballType", "attribute_values": ["Both", "Edge", "Edge with EC2", "SBE Compute Optimized", "SBE Compute Optimized with GPU", "Snowcone", "Snowcone SSD", "Standard"]}

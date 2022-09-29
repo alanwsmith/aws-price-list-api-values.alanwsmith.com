@@ -1,0 +1,1 @@
+{"service_code": "AmazonCloudWatch", "attribute": "productFamily", "attribute_values": ["Alarm", "API Request", "Bundle", "Canaries", "Contributor Insights", "Dashboard", "Data Payload", "Metric", "Metric Streams", "Storage Snapshot"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonApiGateway", "attribute": "description", "attribute_values": ["API calls received", "HTTP API Requests", "WebSocket Connection Minutes", "WebSocket Messages"]}

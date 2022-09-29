@@ -1,0 +1,1 @@
+{"service_code": "AmazonML", "attribute": "operation", "attribute_values": ["BatchPredict", "DataStats", "EvaluateModel", "RealtimeCapacity", "RealtimePredict", "TrainModel"]}

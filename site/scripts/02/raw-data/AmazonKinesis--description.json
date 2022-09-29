@@ -1,0 +1,1 @@
+{"service_code": "AmazonKinesis", "attribute": "description", "attribute_values": ["per byte hour data stored within 1-7 days", "per byte hours data is stored beyond 7 days", "Per GB of data ingested", "Per GB of data retrieved by consumers using enhanced fan-out", "Per GB of data retrieved using GetRecords consumers", "per stream hour"]}

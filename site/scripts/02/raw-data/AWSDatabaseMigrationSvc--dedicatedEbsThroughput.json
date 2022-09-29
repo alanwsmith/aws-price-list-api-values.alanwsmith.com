@@ -1,0 +1,1 @@
+{"service_code": "AWSDatabaseMigrationSvc", "attribute": "dedicatedEbsThroughput", "attribute_values": ["1000 Mbps", "12000 Mbps", "1600 Mbps", "2000 Mbps", "3000 Mbps", "400 Mbps", "500 Mbps", "6000 Mbps", "750 Mbps", "800 Mbps", "N/A", "Upto 2250 Mbps"]}

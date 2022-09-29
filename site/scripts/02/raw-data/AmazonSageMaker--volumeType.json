@@ -1,0 +1,1 @@
+{"service_code": "AmazonSageMaker", "attribute": "volumeType", "attribute_values": ["General Purpose-Hosting", "General Purpose-Notebook", "General Purpose-Processing", "General Purpose-Processing_DW", "General Purpose-TrainDebugFreeTier", "General Purpose-Training"]}

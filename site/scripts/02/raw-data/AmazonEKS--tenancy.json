@@ -1,0 +1,1 @@
+{"service_code": "AmazonEKS", "attribute": "tenancy", "attribute_values": ["Shared"]}

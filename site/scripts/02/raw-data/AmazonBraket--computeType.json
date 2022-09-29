@@ -1,0 +1,1 @@
+{"service_code": "AmazonBraket", "attribute": "computeType", "attribute_values": ["Accelerated Computing Instances", "Compute Optimized Instances", "Standard Instances"]}

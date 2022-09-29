@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "storageMedia", "attribute_values": ["Amazon S3", "Amazon S3 Outpost", "HDD-backed", "SSD-backed"]}

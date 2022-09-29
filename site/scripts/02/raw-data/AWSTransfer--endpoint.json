@@ -1,0 +1,1 @@
+{"service_code": "AWSTransfer", "attribute": "endpoint", "attribute_values": ["AS2-Hours", "AS2-None", "FTP-Hours-EFS", "FTP-None", "FTP-None-EFS", "FTP-Protocol-Hours", "FTPS-Hours-EFS", "FTPS-None", "FTPS-None-EFS", "FTPS-Protocol-Hours", "SFTP-Endpoint", "SFTP-Hours-EFS", "SFTP-NONE", "SFTP-None-EFS", "SFTP-Protocol-Hours"]}

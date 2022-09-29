@@ -1,0 +1,1 @@
+{"service_code": "AmazonS3", "attribute": "storageClass", "attribute_values": ["Archive", "Archive Instant Retrieval", "General Purpose", "Infrequent Access", "Intelligent-Tiering", "Non-Critical Data", "Tags"]}

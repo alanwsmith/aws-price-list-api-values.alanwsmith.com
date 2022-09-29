@@ -1,0 +1,1 @@
+{"service_code": "AWSDirectoryService", "attribute": "directoryTypeDescription", "attribute_values": ["AD Connector", "AWS Directory Service for Microsoft Active Directory (Microsoft AD)", "Shared AWS Directory Service for Microsoft Active Directory", "Simple AD", "Simple AD or AD Connector"]}

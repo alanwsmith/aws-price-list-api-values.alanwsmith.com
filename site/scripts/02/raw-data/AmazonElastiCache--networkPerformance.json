@@ -1,0 +1,1 @@
+{"service_code": "AmazonElastiCache", "attribute": "networkPerformance", "attribute_values": ["10 Gigabit", "12 Gigabit", "20 Gigabit", "25 Gigabit", "High", "Low", "Low to Moderate", "Moderate", "Up to 10 Gigabit", "Up to 5 Gigabit", "Very Low"]}

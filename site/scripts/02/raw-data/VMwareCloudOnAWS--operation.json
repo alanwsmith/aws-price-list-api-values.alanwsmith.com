@@ -1,0 +1,1 @@
+{"service_code": "VMwareCloudOnAWS", "attribute": "operation", "attribute_values": ["TransitGatewayDirectConnect", "TransitGatewayVPC", "TransitGatewayVPN", "VMC-AssociateAddressVPC", "VMC-CreatePrivateVlan", "VMC-DataTransfer", "VMC-NSX", "VMC-RunHost", "VSR-DisasterRecovery"]}

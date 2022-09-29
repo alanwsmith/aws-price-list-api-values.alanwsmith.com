@@ -1,0 +1,1 @@
+{"service_code": "comprehendmedical", "attribute": "group", "attribute_values": ["ComprehendMedical-InferSNOMEDCT", "Global-ComprehendMedical-batch-govcloud", "Global-ComprehendMedical-DetectEntities", "Global-ComprehendMedical-DetectPHI", "Global-ComprehendMedical-InferICD10CM", "Global-ComprehendMedical-InferRxNorm"]}

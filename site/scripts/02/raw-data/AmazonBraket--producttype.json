@@ -1,0 +1,1 @@
+{"service_code": "AmazonBraket", "attribute": "producttype", "attribute_values": ["DensityMatrix", "Managed-Simulators", "StateVector", "TensorNetwork"]}

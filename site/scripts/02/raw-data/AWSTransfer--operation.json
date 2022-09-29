@@ -1,0 +1,1 @@
+{"service_code": "AWSTransfer", "attribute": "operation", "attribute_values": ["AS2-HTTP:S3", "FTP:EFS", "FTP:S3", "FTPS:EFS", "FTPS:S3", "SFTP:EFS", "SFTP:S3"]}

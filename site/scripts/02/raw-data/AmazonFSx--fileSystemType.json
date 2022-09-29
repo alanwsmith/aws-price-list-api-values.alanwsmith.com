@@ -1,0 +1,1 @@
+{"service_code": "AmazonFSx", "attribute": "fileSystemType", "attribute_values": ["Lustre", "ONTAP", "OpenZFS", "Windows"]}

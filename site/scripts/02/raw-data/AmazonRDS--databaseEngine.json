@@ -1,0 +1,1 @@
+{"service_code": "AmazonRDS", "attribute": "databaseEngine", "attribute_values": ["Any", "Aurora MySQL", "Aurora PostgreSQL", "MariaDB", "MySQL", "MySQL (on-premise for Outpost)", "Oracle", "PostgreSQL", "PostgreSQL (on-premise for Outpost)", "SQL Server", "SQL Server (on-premise for Outpost)"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonRDS", "attribute": "deploymentOption", "attribute_values": ["Any", "Multi-AZ", "Multi-AZ (readable standbys)", "Multi-AZ (SQL Server Mirror)", "Single-AZ"]}

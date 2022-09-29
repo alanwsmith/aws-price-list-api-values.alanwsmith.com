@@ -1,0 +1,1 @@
+{"service_code": "CodeBuild", "attribute": "computeType", "attribute_values": ["arm1.large", "arm1.small", "general1.2xlarge", "general1.large", "general1.medium", "general1.small", "gpu1.large"]}

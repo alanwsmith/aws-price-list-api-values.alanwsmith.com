@@ -1,0 +1,1 @@
+{"service_code": "AmazonTextract", "attribute": "apiType", "attribute_values": ["Async", "Sync", "Sync Analyze ID", "Sync AnalyzeExpense"]}
