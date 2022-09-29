@@ -82,7 +82,7 @@
       sizes="180x180"
       href="/assets/favicons/180x180.png"
     />
-
+    <link rel="stylesheet" href="/assets/highlight/styles/night-owl.min.css" />
     <style>
       body {
         background-color: #232946;
@@ -109,39 +109,45 @@
         padding-top: 18px;
         padding-bottom: 4px;
         width: 100%;
-        max-width: 68ch;
+        max-width: 72ch;
         margin: 0 auto;
         border-bottom: 1px solid #888;
       }
       main {
         width: 100%;
-        max-width: 68ch;
+        max-width: 72ch;
         margin: 0 auto;
       }
       footer {
         width: 100%;
-        max-width: 68ch;
+        max-width: 72ch;
         margin: 0 auto;
         text-align: center;
         margin-top: 60px;
         padding-bottom: 12px;
         font-size: 0.9rem;
       }
+      code {
+        border-radius: 18px;
+      }
     </style>
+
+    <script src="/assets/highlight/highlight.min.js"></script>
+
     <script>
       const kickoff = () => {
         console.log('Kicking Off')
-        fetch('script/services.txt')
+        fetch('usage_example.py')
           .then((response) => {
             if (!response.ok) {
               throw new Error('There was a problem getting the data')
             }
             return response.text()
           })
-          .then(
-            (data) =>
-              (document.getElementById('service_listing').innerText = data)
-          )
+          .then((data) => {
+            document.getElementById('usage_example').innerHTML = data
+            hljs.highlightAll()
+          })
           .catch((error) => {
             console.error('Fetch Error: ', error)
           })
@@ -159,28 +165,26 @@
     </header>
 
     <main>
-      links:
-      https://awscli.amazonaws.com/v2/documentation/api/latest/reference/pricing/index.html
-      https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/pricing.html
-
-      <h1>AWS SDK Serivce Pricing Attribute List</h1>
+      <h1>AWS SDK Serivce Pricing Attribute Usage Example</h1>
       <p>
-        This is a dump of the services and attributes available in the AWS
-        pricing SDKs. I put this together becuse I needed to get the list of EC2
-        attributes for a
-        <a href="aws-ec2-instance-pricing.alanwsmith.com"
-          >blender rendering pricing comparison</a
-        >
-        . I'm posting it here in hopes it'll save you some time.
+        Getting service prices is a matter of querying the `pricing` API from
+        the SDK.
+      </p>
+      <p>
+        You send it a request for a service with optional filters based on the
+        avaialble attributes (which are what's listed on
+        <a href="/">the home page</a>. Some of the calls end up with paginated
+        resutls. AWS provides a nice paginator to automatically deal with those.
       </p>
 
+      <h3>Example Code</h3>
+
       <p>
-        This page doesn't update live. It was last updated on Sept. 29, 2022.
-        You can grab the script and run it yourself if you want the most recent
-        values. There's also a
-        <a href="/usage-example">that shows how I'm using the data</a>.
+        Here's an example of the python3 code I used to pull info about EC2
+        instances:
       </p>
-      <pre><code id="service_listing"></code></pre>
+
+      <pre><code id="usage_example"></code></pre>
     </main>
 
     <footer>
