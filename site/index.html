@@ -127,6 +127,10 @@
         padding-bottom: 12px;
         font-size: 0.9rem;
       }
+
+      .service-collapsed li {
+        display: none;
+      }
     </style>
     <script>
       const kickoff = () => {
@@ -143,17 +147,28 @@
               const services_ul = document.getElementById('services_ul')
 
               const service_li = document.createElement('li')
-              const service_div = document.createElement('div')
+              service_li.className = 'service-collapsedx'
+              const service_div = document.createElement('button')
               service_div.innerText = service.ServiceCode
               service_li.appendChild(service_div)
-
               const attributes_ul = document.createElement('ul')
               service.attributes.forEach((attribute) => {
                 const attribute_li = document.createElement('li')
-                const attribute_div = document.createElement('div')
+                const attribute_div = document.createElement('button')
                 attribute_div.innerText = attribute.name
                 attribute_li.appendChild(attribute_div)
+                const values_ul = document.createElement('ul')
+                /*
+                attribute.values.forEach((value) => {
+                  const value_li = document.createElement('li')
+                  const value_div = document.createElement('div')
+                  value_div.innerText = value
+                  value_li.appendChild(value_div)
+                  values_ul.appendChild(value_li)
+                })
+              */
                 attributes_ul.appendChild(attribute_li)
+                attributes_ul.appendChild(values_ul)
               })
               service_li.appendChild(attributes_ul)
 
