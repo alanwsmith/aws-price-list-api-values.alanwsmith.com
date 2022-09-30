@@ -89,6 +89,10 @@
       href="/assets/favicons/180x180.png"
     />
 
+    <link
+      rel="stylesheet"
+      href="/assets/highlight/styles/kimbie-dark.min.css"
+    />
     <style>
       body {
         background-color: #232946;
@@ -145,7 +149,11 @@
       .value {
         padding-left: 32px;
       }
+      code {
+        border-radius: 14px;
+      }
     </style>
+    <script src="/assets/highlight/highlight.min.js"></script>
     <script>
       const kickoff = () => {
         fetch('scripts/03/serivce_data.json')
@@ -182,6 +190,7 @@
 
               services.appendChild(service_details)
             })
+            hljs.highlightAll()
           })
           .catch((error) => {
             console.error('Fetch Error: ', error)
@@ -220,8 +229,7 @@
         working on post with the specifics for that)
       </p>
 
-      <pre><code>
-#!/usr/bin/env python3
+      <pre><code>#!/usr/bin/env python3
 
 import boto3
 import json
@@ -265,16 +273,25 @@ for page in response_iterator:
       <p>
         This page was generated on Sept. 29, 2022. If you need a more recent set
         of the data you can pull the scripts from
+        <a
+          href="https://github.com/alanwsmith/aws-pricing-sdk-attributes.alanwsmith.com"
+          >the repo</a
+        >.
       </p>
 
-      <p>TODO: put in link to the script to run an update.</p>
       <h2>References</h2>
       <ul>
         <li>
-          https://awscli.amazonaws.com/v2/documentation/api/latest/reference/pricing/index.html
+          <a
+            href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/pricing/index.html"
+            >AWS CLI pricing reference</a
+          >
         </li>
         <li>
-          https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/pricing.html
+          <a
+            href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/pricing.html"
+            >AWS boto3 pricing reference</a
+          >
         </li>
       </ul>
     </main>
