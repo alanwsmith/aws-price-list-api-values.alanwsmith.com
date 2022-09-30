@@ -131,17 +131,38 @@
     <script>
       const kickoff = () => {
         console.log('Kicking Off')
-        fetch('script/services.txt')
+        fetch('scripts/03/serivce_data.json')
           .then((response) => {
             if (!response.ok) {
               throw new Error('There was a problem getting the data')
             }
-            return response.text()
+            return response.json()
           })
-          .then(
-            (data) =>
-              (document.getElementById('service_listing').innerText = data)
-          )
+          .then((data) => {
+            data.services.forEach((service) => {
+              const services_ul = document.getElementById('services_ul')
+
+              const service_li = document.createElement('li')
+              const service_div = document.createElement('div')
+              service_div.innerText = service.ServiceCode
+              service_li.appendChild(service_div)
+
+              const attributes_ul = document.createElement('ul')
+              service.attributes.forEach((attribute) => {
+                const attribute_li = document.createElement('li')
+                const attribute_div = document.createElement('div')
+                attribute_div.innerText = attribute.name
+                attribute_li.appendChild(attribute_div)
+                attributes_ul.appendChild(attribute_li)
+              })
+              service_li.appendChild(attributes_ul)
+
+              // service_li.innerText = service.ServiceCode
+              services_ul.appendChild(service_li)
+
+              console.log(service.ServiceCode)
+            })
+          })
           .catch((error) => {
             console.error('Fetch Error: ', error)
           })
@@ -173,14 +194,13 @@
         >
         . I'm posting it here in hopes it'll save you some time.
       </p>
-
       <p>
         This page doesn't update live. It was last updated on Sept. 29, 2022.
         You can grab the script and run it yourself if you want the most recent
         values. There's also a
         <a href="/usage-example">that shows how I'm using the data</a>.
       </p>
-      <pre><code id="service_listing"></code></pre>
+      <div><ul id="services_ul"></ul></div>
     </main>
 
     <footer>
