@@ -1,16 +1,8 @@
-# static-template.alanwsmith.com
+# AWS Pricing SDK Services, Attributes, And Values
 
-My little template for when I make static sites without a framework
+This is the code behind a single serving site
+with the set of Services, Attributes, and 
+Attribute Values you can get from the 
+AWS pricing SDKs. 
 
-The site contents go in the `site` directory.
 
-The basic `netlify.toml` script will point to that directory
-when deployed.
-
-## Features
-
-- [x] OG Image call
-- [x] Favicons
-- [ ] Single HTML page with styles included
-- [ ] HTML page that calls external CSS
-- [ ] Basic CSS examples
