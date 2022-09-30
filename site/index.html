@@ -3,34 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AWS Services Pricing SDK Attributes and Values</title>
+    <title>AWS Price List API Services, Attributes, and Attribute Values</title>
     <meta
       property="og:title"
-      content="AWS Services Pricing SDK Attributes and Values"
+      content="AWS Pricing API Services, Attributes, and Attribute Values"
     />
     <meta
       name="twitter:title"
-      content="AWS Services Pricing SDK Attributes and Values"
+      content="AWS Pricing API Services, Attributes, and Attribute Values"
     />
     <meta
       property="og:url"
-      content="https://aws-pricing-sdk-attributes.alanwsmith.com/"
+      content="https://aws-price-list-api-values.alanwsmith.com/"
     />
     <meta
       name="description"
-      content="A list of the AWS services, attributes, and attribute values available in the pricing SDK"
+      content="A list of the AWS services, attributes, and attribute values available in the Price List API"
     />
     <meta
       property="og:description"
-      content="A list of the AWS services, attributes, and attribute values available in the pricing SDK"
+      content="A list of the AWS services, attributes, and attribute values available in the Price List API"
     />
     <meta
       property="og:image"
-      content="https://aws-pricing-sdk-attributes.alanwsmith.com/assets/og-image/main.png"
+      content="https://aws-price-list-api-values.alanwsmith.com/assets/og-image/main.png"
     />
     <meta
       name="twitter:image"
-      content="https://aws-pricing-sdk-attributes.alanwsmith.com/assets/og-image/main.png"
+      content="https://aws-price-list-api-values.alanwsmith.com/assets/og-image/main.png"
     />
 
     <meta property="og:type" content="website" />
@@ -202,23 +202,50 @@
 
   <body>
     <header>
-      <a href="/">Home</a> ~
       <a href="https://www.alanwsmith.com/">alanwsmith.com</a> ~
       <a href="https://links.alanwsmith.com">links</a> ~
       <a href="https://podcast.alanwsmith.com/">podcast</a>
     </header>
 
     <main>
-      <h1>AWS Pricing SDK Serivces, Attributes, and Attribute Values</h1>
+      <h1>AWS Price List API Serivces, Attributes, and Attribute Values</h1>
       <p>
         This is a dump of the services, attributes, and attribute values
-        available from the AWS pricing SDKs. I put this together becuse I wanted
-        an easier to parse list of EC2 prices. It was a bit of a pain to dig
-        through so I'm posting it in hopes it save other folks some time. A
-        usage example is further below.
+        available from the AWS Price List API's
+        <a
+          href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_pricing_DescribeServices.html"
+          >DescribeServices</a
+        >
+        and
+        <a
+          href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_pricing_GetAttributeValues.html"
+          >GetAttributeValues</a
+        >
+        functions. Pulling those are the first two steps in order to get data
+        from the
+        <a
+          href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_pricing_GetProducts.html"
+          >GetProducts</a
+        >
+        function where the actual pricing details reside.
+      </p>
+      <p>
+        I'm posting this becuase it's silly for everyone to spend time doing the
+        same thing. (I'm also including a usage example below that shows how to
+        use how to use the data)
       </p>
 
-      <h2>The Services, Attributes, And Attribute Vaules</h2>
+      <h2>Update Frequency</h2>
+      <p>
+        This page was generated on Sept. 29, 2022. If you need a more recent set
+        of the data you can pull the scripts from
+        <a
+          href="https://github.com/alanwsmith/aws-pricing-sdk-attributes.alanwsmith.com"
+          >the repo</a
+        >.
+      </p>
+
+      <h2>The Data</h2>
       <div id="services"></div>
 
       <h2>Usage</h2>
@@ -263,47 +290,67 @@ for page in response_iterator:
         print(price_data[&apos;product&apos;][&apos;attributes&apos;][&apos;instanceType&apos;])
       </code></pre>
 
-      <p>
-        The `ServiceCode=&apos;AmazonEC2&apos;` is the top level of from the
-        data list. The `&apos;Field&apos;: &apos;regionCode&apos;` is the second
-        level and `&apos;Value&apos;: &apos;us-east-1&apos;` is the third level.
-      </p>
-
-      <h2>Update Frequency</h2>
-      <p>
-        This page was generated on Sept. 29, 2022. If you need a more recent set
-        of the data you can pull the scripts from
-        <a
-          href="https://github.com/alanwsmith/aws-pricing-sdk-attributes.alanwsmith.com"
-          >the repo</a
-        >.
-      </p>
+      <h2>Notes</h2>
+      <ul>
+        <li>
+          Values for <code>ServiceCode</code> in the example come from the first
+          level of the data.
+        </li>
+        <li>
+          Values for <code>Field</code> in the example come from the second
+          level of the data.
+        </li>
+        <li>
+          Values for <code>Value</code> in the example come from the third level
+          of the data.
+        </li>
+        <li>
+          This example uses the paginator that AWS provides. I wish more APIs
+          that required pagination included this with their SDKs. You can see
+          details on the python code
+          <a
+            href="https://boto3.amazonaws.com/v1/documentation/api/latest/guide/paginators.html"
+            >here</a
+          >
+          (I didn't find the top level docs)
+        </li>
+        <li>
+          I limited the data pulls to 1000 items. EC2 has way more skus than
+          that. Filtering that will depend on your end goal
+        </li>
+      </ul>
 
       <h2>References</h2>
       <ul>
         <li>
           <a
-            href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/pricing/index.html"
-            >AWS CLI pricing reference</a
+            href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_Operations_AWS_Price_List_Service.html"
+            >Price List API Home Page</a
           >
+          - nothing really here except links to the functions below.
         </li>
         <li>
           <a
-            href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/pricing.html"
-            >AWS boto3 pricing reference</a
+            href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_pricing_DescribeServices.html"
+            >Price List API DescribeServices Documentation</a
           >
+          - shows the basic structure with links to docs for specific languages
         </li>
         <li>
           <a
-            href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/pricing.html#paginators"
-            >AWS boto3 pagination reference</a
+            href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_pricing_GetAttributeValues.html"
+            >Price List API GetAttributeValues Documentation</a
           >
+          - top level docs with links to specific language docs
         </li>
         <li>
           <a
-            href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/pricing.html#Pricing.Paginator.GetProducts"
-            >boto3 GetProducts</a
+            href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_pricing_GetProducts.html"
+            >Price List API GetProducts Documentation</a
           >
+          - top level docs with links to specific language docs. This is the end
+          goal. You use the above data to make calls to this API to get produce
+          pricing info
         </li>
       </ul>
     </main>
