@@ -1,0 +1,1 @@
+{"service_code": "AWSAppSync", "attribute": "protocol", "attribute_values": ["HTTPS", "MQTT_WSS"]}

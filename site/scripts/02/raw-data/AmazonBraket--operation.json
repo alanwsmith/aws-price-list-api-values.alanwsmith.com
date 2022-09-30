@@ -1,0 +1,1 @@
+{"service_code": "AmazonBraket", "attribute": "operation", "attribute_values": ["CompleteTask", "FailedTask", "Managed-Jobs", "Task"]}

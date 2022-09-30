@@ -1,0 +1,1 @@
+{"service_code": "AmazonRDS", "attribute": "minVolumeSize", "attribute_values": ["10 GB", "100 GB", "5 GB"]}

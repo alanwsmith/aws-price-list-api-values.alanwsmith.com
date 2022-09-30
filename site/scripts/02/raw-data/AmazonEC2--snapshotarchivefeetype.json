@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "snapshotarchivefeetype", "attribute_values": ["SnapshotArchiveEarlyDelete", "SnapshotArchiveRetrieval", "SnapshotArchiveStorage"]}

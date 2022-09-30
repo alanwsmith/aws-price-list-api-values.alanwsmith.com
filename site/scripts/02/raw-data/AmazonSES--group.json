@@ -1,0 +1,1 @@
+{"service_code": "AmazonSES", "attribute": "group", "attribute_values": ["SES-MonthlyFree-IncomingEmail", "SES-MonthlyFree-OutgoingEmail", "SES-MonthlyFree-OutgoingEmail-Simulator"]}

@@ -1,0 +1,1 @@
+{"service_code": "AWSQueueService", "attribute": "messageDeliveryOrder", "attribute_values": ["Guaranteed", "Not Guaranteed"]}

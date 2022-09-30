@@ -1,0 +1,1 @@
+{"service_code": "AmazonDynamoDB", "attribute": "group", "attribute_values": ["DDB-ElasticViews", "DDB-Kinesis", "DDB-ReadUnits", "DDB-ReadUnitsIA", "DDB-ReplicatedWriteUnits", "DDB-ReplicatedWriteUnitsIA", "DDB-StreamsReadRequests", "DDB-WriteUnits", "DDB-WriteUnitsIA"]}

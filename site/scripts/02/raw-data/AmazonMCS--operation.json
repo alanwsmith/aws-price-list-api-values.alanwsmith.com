@@ -1,0 +1,1 @@
+{"service_code": "AmazonMCS", "attribute": "operation", "attribute_values": ["CommittedThroughput", "PayPerRequestThroughput", "TimeToLiveDelete"]}

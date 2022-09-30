@@ -1,0 +1,1 @@
+{"service_code": "AWSCloudWAN", "attribute": "operation", "attribute_values": ["CloudWANConnect", "CloudWANCoreNetworkEdge", "CloudWANS2SVPN", "CloudWANTGWPeering", "CloudWANVPC"]}

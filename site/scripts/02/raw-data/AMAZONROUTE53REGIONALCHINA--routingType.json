@@ -1,0 +1,1 @@
+{"service_code": "AMAZONROUTE53REGIONALCHINA", "attribute": "routingType", "attribute_values": ["Geo DNS", "Geoproximity", "IP-Based Routing", "Latency Based Routing", "Standard"]}

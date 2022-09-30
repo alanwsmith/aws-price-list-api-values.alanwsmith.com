@@ -1,0 +1,1 @@
+{"service_code": "AWSFMS", "attribute": "awsresource", "attribute_values": ["AmazonCloudFront", "ElasticLoadBalancing", "FIrewallManagerPolicy", "FMS", "FMS-DNSFirewall", "FMS-Network-Firewall", "FMS-PaloAlto", "FMS-SG-Common", "FMS-SG-ContentAudit", "FMS-SG-UsageAudit", "FMS-Shield", "FMS-WAF", "WAF"]}

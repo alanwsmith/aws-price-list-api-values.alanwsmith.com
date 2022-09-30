@@ -1,0 +1,1 @@
+{"service_code": "AmazonMSK", "attribute": "computeFamily", "attribute_values": ["m5.12xlarge", "m5.16xlarge", "m5.24xlarge", "m5.2xlarge", "m5.4xlarge", "m5.8xlarge", "m5.large", "m5.xlarge", "t3.small"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonSWF", "attribute": "groupDescription", "attribute_values": ["Number of billable 24-hour periods the workflow was running", "Number of calendar days workflow is retained", "Number of tasks scheduled, signals received, markers set and timers setup", "Number of workflow executions initiated"]}

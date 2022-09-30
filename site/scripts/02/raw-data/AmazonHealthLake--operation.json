@@ -1,0 +1,1 @@
+{"service_code": "AmazonHealthLake", "attribute": "operation", "attribute_values": ["FHIRDataExport", "FHIRDataStorage", "FHIRDataStore", "FHIRQueries", "IntegratedMedicalNLP"]}

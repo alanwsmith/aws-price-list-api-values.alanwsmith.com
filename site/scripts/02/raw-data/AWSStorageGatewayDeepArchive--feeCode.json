@@ -1,0 +1,1 @@
+{"service_code": "AWSStorageGatewayDeepArchive", "attribute": "feeCode", "attribute_values": ["StorageGateway-DA-EarlyDeleteFee", "StorageGateway-DA-MoveFee", "StorageGateway-TapeDARetrieval"]}

@@ -1,0 +1,1 @@
+{"service_code": "ElasticMapReduce", "attribute": "meterunit", "attribute_values": ["CPUHours", "GBHours", "StorageGBHours"]}

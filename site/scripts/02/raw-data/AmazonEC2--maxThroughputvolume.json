@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "maxThroughputvolume", "attribute_values": ["1000 MiB/s", "250 MiB/s", "40 - 90 MB/sec", "500 MiB/s"]}

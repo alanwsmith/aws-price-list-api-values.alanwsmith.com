@@ -1,0 +1,1 @@
+{"service_code": "AmazonS3GlacierDeepArchive", "attribute": "group", "attribute_values": ["S3-API-GDA-Tier1", "S3-API-GDA-Tier3", "S3-API-Tier3", "S3-API-Tier5"]}

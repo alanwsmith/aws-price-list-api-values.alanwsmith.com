@@ -1,0 +1,1 @@
+{"service_code": "AmazonSageMaker", "attribute": "group", "attribute_values": ["AP-Tier0", "AP-Tier1", "AP-Tier2", "AP-Tier3", "Canvas:CreateModel", "Canvas:Session", "Edge-DeviceRegistration", "Edge-ManagedModelsReporting", "FeatureStore-ReadUnits", "FeatureStore-WriteUnits", "Hosting:IN", "Hosting:OUT", "ServerlessInf"]}

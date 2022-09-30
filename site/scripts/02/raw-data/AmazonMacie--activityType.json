@@ -1,0 +1,1 @@
+{"service_code": "AmazonMacie", "attribute": "activityType", "attribute_values": ["Aggregation", "Classification", "Results Storage"]}

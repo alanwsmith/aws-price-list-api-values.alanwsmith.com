@@ -1,0 +1,1 @@
+{"service_code": "AWSEvents", "attribute": "operation", "attribute_values": ["ArchiveEvents", "DiscoveryEvent", "InvokeApiDestination", "PutEvents", "ReceivedPartnerEvents", "StandardStorage"]}

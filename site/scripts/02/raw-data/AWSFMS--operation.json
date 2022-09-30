@@ -1,0 +1,1 @@
+{"service_code": "AWSFMS", "attribute": "operation", "attribute_values": ["Common", "Content-Audit", "DNS-Firewall", "Network-Firewall", "PaloAlto", "Shield", "Usage-Audit", "WAF", "WAFv2"]}

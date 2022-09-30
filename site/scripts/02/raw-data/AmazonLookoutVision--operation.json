@@ -1,0 +1,1 @@
+{"service_code": "AmazonLookoutVision", "attribute": "operation", "attribute_values": ["EdgeInference", "Inference", "Training"]}

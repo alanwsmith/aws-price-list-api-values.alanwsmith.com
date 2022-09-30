@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "volumeType", "attribute_values": ["Cold HDD", "General Purpose", "Magnetic", "Provisioned IOPS", "Throughput Optimized HDD"]}

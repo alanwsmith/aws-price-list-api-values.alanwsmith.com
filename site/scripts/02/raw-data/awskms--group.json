@@ -1,0 +1,1 @@
+{"service_code": "awskms", "attribute": "group", "attribute_values": ["aws-kms-Requests-Asymmetric-RSA_2048", "awskms-APIRequest-All", "awskms-Requests", "awskms-Requests-Asymmetric", "awskms-Requests-GenerateDatakeyPair-ECC", "awskms-Requests-GenerateDatakeyPair-RSA"]}

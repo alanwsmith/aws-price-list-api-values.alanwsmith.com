@@ -1,0 +1,1 @@
+{"service_code": "AWSCloudFormation", "attribute": "cloudformationresourceProvider", "attribute_values": ["CloudFormation-Hook-Duration", "CloudFormation-Hook-Invocation", "CloudFormation-ResourceProvider-Duration", "CloudFormation-ResourceProvider-Invocation"]}

@@ -1,0 +1,1 @@
+{"service_code": "transcribe", "attribute": "supportedModes", "attribute_values": ["Audio to Text", "automatic content redaction", "Medical Audio to Text", "Stream to Text", "Transcribe Call Analytics", "Transcribe Custom Language Model"]}

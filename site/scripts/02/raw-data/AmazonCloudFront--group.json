@@ -1,0 +1,1 @@
+{"service_code": "AmazonCloudFront", "attribute": "group", "attribute_values": ["AWS-Lambda-Edge-Duration", "AWS-Lambda-Edge-Requests", "CF-Invalidations", "CF-RealTimeLog", "CF-SSL-Cert-Custom", "CF-StaticIP-IPv4", "CF-StaticIP-IPv6", "CloudFront-Functions"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonInspectorV2", "attribute": "scanType", "attribute_values": ["Automated re-scan", "free-metering", "Initial Scan (on-push to ECR)"]}

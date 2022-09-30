@@ -1,0 +1,1 @@
+{"service_code": "AWSElementalMediaStore", "attribute": "ingestType", "attribute_values": ["Egress IA", "Standard", "Standard Ephemeral", "Streaming", "Streaming Ephemeral"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonS3GlacierDeepArchive", "attribute": "operation", "attribute_values": ["CompleteMultipartUpload", "CompleteMultipartUploadForRepl", "CopyObject", "CopyPart", "DeepArchiveRestoreObject", "InitiateMultipartUpload", "InitiateMultipartUploadForRepl", "PostObject", "PutObject", "PutObjectForRepl", "S3-GDATransition", "UploadPart", "UploadPartForRepl"]}

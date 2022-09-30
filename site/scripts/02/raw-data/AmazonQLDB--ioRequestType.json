@@ -1,0 +1,1 @@
+{"service_code": "AmazonQLDB", "attribute": "ioRequestType", "attribute_values": ["Read I/O Request", "Write I/O Request"]}

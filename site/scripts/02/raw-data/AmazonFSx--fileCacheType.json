@@ -1,0 +1,1 @@
+{"service_code": "AmazonFSx", "attribute": "fileCacheType", "attribute_values": ["Lustre"]}

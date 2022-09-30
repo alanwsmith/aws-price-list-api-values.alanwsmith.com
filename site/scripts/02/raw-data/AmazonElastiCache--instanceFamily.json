@@ -1,0 +1,1 @@
+{"service_code": "AmazonElastiCache", "attribute": "instanceFamily", "attribute_values": ["Compute optimized", "Memory optimized", "Micro", "Standard"]}

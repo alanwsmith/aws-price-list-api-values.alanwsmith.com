@@ -1,0 +1,1 @@
+{"service_code": "AmazonML", "attribute": "machineLearningProcess", "attribute_values": ["Batch predictions", "Capacity reservation for real-time predictions", "Create data statistics", "Evaluate ML models", "Real-time predictions", "Train ML models"]}

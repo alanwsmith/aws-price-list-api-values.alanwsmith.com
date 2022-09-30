@@ -1,0 +1,1 @@
+{"service_code": "AWSDataTransfer", "attribute": "fromLocationType", "attribute_values": ["AWS Local Zone", "AWS Region", "AWS Wavelength Zone", "CloudFront China POPs", "Other"]}

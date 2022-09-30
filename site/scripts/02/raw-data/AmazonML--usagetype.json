@@ -1,0 +1,1 @@
+{"service_code": "AmazonML", "attribute": "usagetype", "attribute_values": ["EU-AMLBoxUsage", "EU-BatchPredictionChunk", "EU-MegabyteHour10", "EU-Prediction", "USE1-AMLBoxUsage", "USE1-BatchPredictionChunk", "USE1-MegabyteHour10", "USE1-Prediction"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonCloudWatch", "attribute": "logsDestination", "attribute_values": ["Amazon CloudWatch Logs", "Amazon Kinesis Data Firehose", "Amazon S3"]}

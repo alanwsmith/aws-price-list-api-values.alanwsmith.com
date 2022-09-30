@@ -1,0 +1,1 @@
+{"service_code": "AWSCloudTrail", "attribute": "category", "attribute_values": ["FreeTrialIngestion-Bytes", "FreeTrialQueryScanned-Bytes", "Ingestion-Bytes", "QueryScanned-Bytes"]}

@@ -1,0 +1,1 @@
+{"service_code": "AWSShield", "attribute": "resourceType", "attribute_values": ["CloudFront", "GlobalAccelerator", "LoadBalancing", "ShieldProtectionEIP"]}

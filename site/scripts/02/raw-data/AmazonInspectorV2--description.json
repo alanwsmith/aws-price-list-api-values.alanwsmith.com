@@ -1,0 +1,1 @@
+{"service_code": "AmazonInspectorV2", "attribute": "description", "attribute_values": ["Container Image scanning includes an initial scan when an image is pushed to the ECR or an automated re-scan or an ad-hoc image scan", "EC2 Scanning including continuous vulnerability and network reachability checks"]}

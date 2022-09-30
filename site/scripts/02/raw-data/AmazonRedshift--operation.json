@@ -1,0 +1,1 @@
+{"service_code": "AmazonRedshift", "attribute": "operation", "attribute_values": ["RunComputeNode:0001", "RunServerlessCompute:001"]}

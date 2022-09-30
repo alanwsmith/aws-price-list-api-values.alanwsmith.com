@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "capacitystatus", "attribute_values": ["AllocatedCapacityReservation", "AllocatedHost", "NA", "UnusedCapacityReservation", "Used"]}

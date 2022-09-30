@@ -1,0 +1,1 @@
+{"service_code": "AmazonVPC", "attribute": "operation", "attribute_values": ["AnalyzeENI", "ClientVPNConnections", "ClientVPNEndpoints", "CreateVpnConnection", "ENI-to-ENI", "IPAM-Active-IP", "RunAnalysis", "TransitGatewayConnect", "TransitGatewayDirectConnect", "TransitGatewayPeering", "TransitGatewayVPC", "TransitGatewayVPN", "VpcEndpoint"]}

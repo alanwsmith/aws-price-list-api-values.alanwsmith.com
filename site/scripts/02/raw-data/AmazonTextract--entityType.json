@@ -1,0 +1,1 @@
+{"service_code": "AmazonTextract", "attribute": "entityType", "attribute_values": ["Expense", "Forms", "Forms+Queries", "Forms+Tables+Queries", "ID", "Queries", "Tables", "Tables+Queries", "Text"]}

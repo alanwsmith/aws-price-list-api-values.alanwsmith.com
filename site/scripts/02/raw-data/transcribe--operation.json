@@ -1,0 +1,1 @@
+{"service_code": "transcribe", "attribute": "operation", "attribute_values": ["CallAnalyticsTranscribeAudio", "MedicalStreamingAudio", "MedicalTranscribeAudio", "RedactionTranscribeAudio", "RedactionTranscribeStreaming", "StreamingAudio", "TranscribeAudio", "TranscribeClmAudio", "TranscribeStreamingClm"]}

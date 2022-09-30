@@ -1,0 +1,1 @@
+{"service_code": "VMwareCloudOnAWS", "attribute": "vmwareproductid", "attribute_values": ["VMC_AWS_GOV_REG", "VMC_AWS_GOV_SR_CP", "VMC_AWS_I3_CP", "VMC_AWS_I3_NSX_CP", "VMC_AWS_I3EN_CP", "VMC_AWS_I3ENNSX_CP", "VMC_AWS_REG", "VMC_AWS_SR_CP"]}

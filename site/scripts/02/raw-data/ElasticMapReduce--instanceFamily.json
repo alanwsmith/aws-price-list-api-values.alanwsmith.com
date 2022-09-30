@@ -1,0 +1,1 @@
+{"service_code": "ElasticMapReduce", "attribute": "instanceFamily", "attribute_values": ["Compute optimized", "General purpose", "GPU instance", "Graphics Accelerated", "Memory optimized", "Storage optimized"]}

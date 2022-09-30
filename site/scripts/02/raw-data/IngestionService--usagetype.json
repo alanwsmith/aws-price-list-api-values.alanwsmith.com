@@ -1,0 +1,1 @@
+{"service_code": "IngestionService", "attribute": "usagetype", "attribute_values": ["AP-DeviceUsage", "AP-ReturnShippingFee", "AP-StationUsage", "DeviceUsage", "EU-DeviceUsage", "EU-ReturnShippingFee", "EU-StationUsage", "ReturnShippingFee", "StationUsage"]}

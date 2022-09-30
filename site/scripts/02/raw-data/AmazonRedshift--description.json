@@ -1,0 +1,1 @@
+{"service_code": "AmazonRedshift", "attribute": "description", "attribute_values": ["Data scanned per query for each successful or cancelled query", "Redshift Cross-Region Data Sharing Charges", "Redshift Cross-Region Snapshot Copy Charges", "Redshift Serverless compute charges", "Storage charges with Redshift managed storage"]}

@@ -1,0 +1,1 @@
+{"service_code": "AWSGlue", "attribute": "operation", "attribute_values": ["CrawlerRun", "FlexJobrun", "Job", "Jobrun", "Request", "Session", "StartDevEndpoint", "Storage"]}

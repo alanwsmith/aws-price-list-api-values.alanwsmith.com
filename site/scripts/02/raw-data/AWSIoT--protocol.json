@@ -1,0 +1,1 @@
+{"service_code": "AWSIoT", "attribute": "protocol", "attribute_values": ["Any", "LoRaWAN", "MQTT", "Sidewalk"]}

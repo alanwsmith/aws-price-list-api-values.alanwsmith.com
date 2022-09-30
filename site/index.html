@@ -127,21 +127,56 @@
         padding-bottom: 12px;
         font-size: 0.9rem;
       }
+
+      .service-collapsed li {
+        display: none;
+      }
+
+      .attribute {
+        padding-left: 24px;
+      }
+
+      .value {
+        padding-left: 32px;
+      }
     </style>
     <script>
       const kickoff = () => {
-        console.log('Kicking Off')
-        fetch('script/services.txt')
+        fetch('scripts/03/serivce_data.json')
           .then((response) => {
             if (!response.ok) {
               throw new Error('There was a problem getting the data')
             }
-            return response.text()
+            return response.json()
           })
-          .then(
-            (data) =>
-              (document.getElementById('service_listing').innerText = data)
-          )
+          .then((data) => {
+            const services = document.getElementById('services')
+            data.services.forEach((service) => {
+              const service_details = document.createElement('details')
+              const service_summary = document.createElement('summary')
+              service_summary.innerText = service.ServiceCode
+              service_details.appendChild(service_summary)
+
+              service.attributes.forEach((attribute) => {
+                const attribute_details = document.createElement('details')
+                attribute_details.className = 'attribute'
+                const attribute_summary = document.createElement('summary')
+                attribute_summary.innerText = attribute.name
+                attribute_details.appendChild(attribute_summary)
+
+                attribute.values.forEach((value) => {
+                  const value_div = document.createElement('div')
+                  value_div.className = 'value'
+                  value_div.innerText = value
+                  attribute_details.appendChild(value_div)
+                })
+
+                service_details.appendChild(attribute_details)
+              })
+
+              services.appendChild(service_details)
+            })
+          })
           .catch((error) => {
             console.error('Fetch Error: ', error)
           })
@@ -159,23 +194,83 @@
     </header>
 
     <main>
-      <h1>AWS SDK Serivce Pricing Attributes Lister</h1>
+      <h1>AWS SDK Serivce Pricing List</h1>
       <p>
-        This is a dump of the services and attributes available in the AWS
-        pricing SDKs. I put this together becuse I needed to get the list of EC2
-        attributes for a
-        <a href="aws-ec2-instance-pricing.alanwsmith.com"
-          >blender rendering pricing comparison</a
-        >
-        . I'm posting it here in hopes it'll save you some time.
+        This is a dump of the services, attributes, and attribute values
+        available from the AWS pricing SDKs. I put this together becuse I wanted
+        an easier to parse list of EC2 prices. It was a bit of a pain to dig
+        through so I'm posting it in hopes it save other folks some time. A
+        usage example is further below.
       </p>
 
+      <h2>The Services, Attributes, And Attribute Vaules</h2>
+      <div id="services"></div>
+
+      <h2>Usage</h2>
+
       <p>
-        This page doesn't update live. It was last updated on Sept. 29, 2022.
-        You can grab the script and run it yourself if you want the most recent
-        values.
+        This example shows how to use the data to start getting details on EC2
+        instances. (Getting the actual prices for is a little complicated. I'm
+        working on post with the specifics for that)
       </p>
-      <pre><code id="service_listing"></code></pre>
+
+      <pre><code>
+#!/usr/bin/env python3
+
+import boto3
+import json
+
+client = boto3.client(&apos;pricing&apos;)
+paginator = client.get_paginator(&apos;get_products&apos;)
+
+response_iterator = paginator.paginate(
+    ServiceCode=&apos;AmazonEC2&apos;,
+    Filters=[
+        {
+            &apos;Type&apos;:  &apos;TERM_MATCH&apos;,
+            &apos;Field&apos;: &apos;regionCode&apos;,
+            &apos;Value&apos;: &apos;us-east-1&apos;
+        },
+        {
+            &apos;Type&apos;:  &apos;TERM_MATCH&apos;,
+            &apos;Field&apos;: &apos;operatingSystem&apos;,
+            &apos;Value&apos;: &apos;Linux&apos;
+        }
+    ],
+    FormatVersion=&apos;aws_v1&apos;,
+    PaginationConfig={
+        &apos;MaxItems&apos;: 5,
+    },
+)
+
+for page in response_iterator:
+    for price_data_string in page[&apos;PriceList&apos;]:
+        price_data = json.loads(price_data_string)
+        print(price_data[&apos;product&apos;][&apos;attributes&apos;][&apos;instanceType&apos;])
+      </code></pre>
+
+      <p>
+        The `ServiceCode=&apos;AmazonEC2&apos;` is the top level of from the
+        data list. The `&apos;Field&apos;: &apos;regionCode&apos;` is the second
+        level and `&apos;Value&apos;: &apos;us-east-1&apos;` is the third level.
+      </p>
+
+      <h2>Update Frequency</h2>
+      <p>
+        This page was generated on Sept. 29, 2022. If you need a more recent set
+        of the data you can pull the scripts from
+      </p>
+
+      <p>TODO: put in link to the script to run an update.</p>
+      <h2>References</h2>
+      <ul>
+        <li>
+          https://awscli.amazonaws.com/v2/documentation/api/latest/reference/pricing/index.html
+        </li>
+        <li>
+          https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/pricing.html
+        </li>
+      </ul>
     </main>
 
     <footer>

@@ -1,0 +1,1 @@
+{"service_code": "AWSOutposts", "attribute": "processorFeatures", "attribute_values": ["AVX, AVX2, AMD Turbo", "Intel AVX, Intel AVX2, Intel AVX512, Intel Deep Learning Boost, Intel Turbo", "Intel AVX, Intel AVX2, Intel AVX512, Intel Turbo"]}

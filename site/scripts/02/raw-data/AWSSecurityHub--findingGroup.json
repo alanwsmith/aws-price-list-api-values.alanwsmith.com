@@ -1,0 +1,1 @@
+{"service_code": "AWSSecurityHub", "attribute": "findingGroup", "attribute_values": ["FreeFindingsIngestion", "FreeFindingsIngestion-CrossRegion", "FreeFindingsIngestion-FreeTrial", "PaidFindingsIngestion"]}

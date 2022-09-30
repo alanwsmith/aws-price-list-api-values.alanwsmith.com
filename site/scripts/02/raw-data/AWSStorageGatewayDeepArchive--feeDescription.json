@@ -1,0 +1,1 @@
+{"service_code": "AWSStorageGatewayDeepArchive", "attribute": "feeDescription", "attribute_values": ["Fee for moving a tape between Glacier and Deep Archive", "Fee for retrieving virtual tape from Deep Archive", "Pro-rated fee for deleting an archived virtual tape prior to 180 days"]}

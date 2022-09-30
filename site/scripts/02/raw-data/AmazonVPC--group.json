@@ -1,0 +1,1 @@
+{"service_code": "AmazonVPC", "attribute": "group", "attribute_values": ["AWSClientVPN", "AWSReachabilityAnalyzer", "AWSTrafficMirroring", "AWSTransitGateway", "AWSVPCAccessAnalyzer", "AWSVPCIPAddressManager", "VPCE:VpcEndpoint"]}

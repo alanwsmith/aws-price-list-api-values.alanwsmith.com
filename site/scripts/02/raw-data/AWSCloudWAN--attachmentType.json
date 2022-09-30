@@ -1,0 +1,1 @@
+{"service_code": "AWSCloudWAN", "attribute": "attachmentType", "attribute_values": ["AWS Site-to-Site VPN", "Connect", "Transit Gateway", "VPC"]}

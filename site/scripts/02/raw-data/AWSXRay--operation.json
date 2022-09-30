@@ -1,0 +1,1 @@
+{"service_code": "AWSXRay", "attribute": "operation", "attribute_values": ["XRay-Traces-Retrieved", "XRay-Traces-Scanned"]}

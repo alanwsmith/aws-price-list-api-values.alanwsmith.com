@@ -1,0 +1,1 @@
+{"service_code": "AmazonCognito", "attribute": "operation", "attribute_values": ["CognitoASFOperation", "CognitoEnterpriseOperation", "CognitoUserPoolsOperation"]}

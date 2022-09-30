@@ -1,0 +1,1 @@
+{"service_code": "AWSEvents", "attribute": "eventType", "attribute_values": ["APIDestination", "Archive Event", "Custom Event", "Discovery Event", "Event Storage", "Partner Event"]}

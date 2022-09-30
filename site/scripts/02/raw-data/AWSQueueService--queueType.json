@@ -1,0 +1,1 @@
+{"service_code": "AWSQueueService", "attribute": "queueType", "attribute_values": ["Any", "FIFO (first-in, first-out)", "Standard"]}

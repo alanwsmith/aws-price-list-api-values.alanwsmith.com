@@ -1,0 +1,1 @@
+{"service_code": "AmazonKinesisAnalytics", "attribute": "operation", "attribute_values": ["CreateSnapshot", "StartApplication"]}

@@ -1,0 +1,1 @@
+{"service_code": "AWSELB", "attribute": "locationType", "attribute_values": ["AWS Local Zone", "AWS Outposts", "AWS Region", "AWS Wavelength Zone"]}

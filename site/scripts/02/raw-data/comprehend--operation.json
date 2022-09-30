@@ -1,0 +1,1 @@
+{"service_code": "comprehend", "attribute": "operation", "attribute_values": ["ContainsPiiEntities", "DetectDominantLanguage", "DetectEntities", "DetectEvents", "DetectKeyPhrases", "DetectPiiEntities", "DetectSentiment", "DetectSyntax", "DetectTgtSentiment", "DetectTopics", "DocClassification", "DocClassifier", "EntityRecognizer"]}

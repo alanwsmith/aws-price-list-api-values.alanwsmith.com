@@ -1,0 +1,1 @@
+{"service_code": "AmazonApiGateway", "attribute": "operation", "attribute_values": ["ApiGatewayHttpApi", "ApiGatewayRequest", "ApiGatewayWebSocket", "RunInstances"]}

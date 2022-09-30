@@ -1,0 +1,1 @@
+{"service_code": "AmazonKinesisVideo", "attribute": "operation", "attribute_values": ["GetClip", "GetImages", "GetMedia", "GetMediaforFragmentList", "GetMP4MediaFragment", "GetTSFragment", "PutMedia", "S3ImageGeneration", "WebRTC"]}

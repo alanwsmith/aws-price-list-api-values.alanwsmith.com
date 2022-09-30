@@ -1,0 +1,1 @@
+{"service_code": "AmazonECS", "attribute": "tenancy", "attribute_values": ["Shared"]}

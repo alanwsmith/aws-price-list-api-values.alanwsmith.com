@@ -1,0 +1,1 @@
+{"service_code": "AmazonRDS", "attribute": "storageMedia", "attribute_values": ["AmazonS3", "Magnetic", "SSD"]}

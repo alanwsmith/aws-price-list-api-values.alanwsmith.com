@@ -1,0 +1,1 @@
+{"service_code": "AWSFMS", "attribute": "platoprotectionpolicytype", "attribute_values": ["does not apply", "Policy", "Policy-DNS-Firewall", "Policy-Network-Firewall", "Policy-PaloAlto", "Policy-Security-Group", "Policy-Shield", "Policy-WAF", "Shield", "WAF"]}

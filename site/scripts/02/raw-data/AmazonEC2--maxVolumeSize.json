@@ -1,0 +1,1 @@
+{"service_code": "AmazonEC2", "attribute": "maxVolumeSize", "attribute_values": ["1 TiB", "16 TiB"]}

@@ -1,0 +1,1 @@
+{"service_code": "AmazonPinpoint", "attribute": "group", "attribute_values": ["DeliverabilityDashboard", "EmailMessageSends", "EventsRecorded", "InAppMessageRequests", "MobilePushDelivery-New", "MobilePushDeliveryAttempts", "PhoneNumber-10DLC", "PhoneNumbers", "TargetedAudience"]}

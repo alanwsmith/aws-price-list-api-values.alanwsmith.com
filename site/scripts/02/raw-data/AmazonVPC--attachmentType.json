@@ -1,0 +1,1 @@
+{"service_code": "AmazonVPC", "attribute": "attachmentType", "attribute_values": ["AWS DirectConnect", "AWS Site-to-Site VPN", "Transit Gateway", "Transit Gateway Connect", "VPC"]}

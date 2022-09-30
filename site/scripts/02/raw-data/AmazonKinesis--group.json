@@ -1,0 +1,1 @@
+{"service_code": "AmazonKinesis", "attribute": "group", "attribute_values": ["Addon shard hour", "Enhanced fan-out consumer-shard hour", "Enhanced fan-out GB of data retrieved", "Long-term Data Retention GB-month", "Long-term Data Retrieval GB", "OnDemand", "Payload Units", "Provisioned shard hour"]}

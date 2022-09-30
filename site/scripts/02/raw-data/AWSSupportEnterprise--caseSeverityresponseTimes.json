@@ -1,0 +1,1 @@
+{"service_code": "AWSSupportEnterprise", "attribute": "caseSeverityresponseTimes", "attribute_values": ["Critical: < 15 minutes, Urgent: < 1 hour, High: < 4 hours, Normal: < 12 hours, Low: < 24 hours"]}

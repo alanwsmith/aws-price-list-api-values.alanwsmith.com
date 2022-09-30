@@ -1,0 +1,1 @@
+{"service_code": "AmazonLightsail", "attribute": "group", "attribute_values": ["Lightsail Block Storage", "Lightsail CDN", "Lightsail Container", "Lightsail Database", "Lightsail Instance", "Lightsail Instance Snapshot", "Lightsail Load Balancer", "Lightsail object storage", "Lightsail Overages", "Lightsail Snapshot", "Lightsail unused static IP"]}

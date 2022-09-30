@@ -1,0 +1,1 @@
+{"service_code": "AmazonRDS", "attribute": "instanceFamily", "attribute_values": ["General purpose", "Memory optimized", "Micro instances", "T3", "T4G"]}

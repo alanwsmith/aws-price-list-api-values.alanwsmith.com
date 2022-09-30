@@ -1,0 +1,1 @@
+{"service_code": "AmazonSES", "attribute": "operation", "attribute_values": ["Lease", "Receive", "Send"]}

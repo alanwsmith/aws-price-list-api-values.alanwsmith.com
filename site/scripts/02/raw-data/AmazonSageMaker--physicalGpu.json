@@ -1,0 +1,1 @@
+{"service_code": "AmazonSageMaker", "attribute": "physicalGpu", "attribute_values": ["AWS Inferentia", "N/A", "None", "NVIDIA K80 GPU", "NVIDIA T4 GPU", "NVIDIA Tesla V100 GPU"]}

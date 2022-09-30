@@ -1,0 +1,1 @@
+{"service_code": "AmazonLookoutEquipment", "attribute": "operation", "attribute_values": ["Ingestion", "Scheduled-Inference", "Training"]}

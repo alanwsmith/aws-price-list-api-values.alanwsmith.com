@@ -1,0 +1,1 @@
+{"service_code": "AWSIoTAnalytics", "attribute": "operation", "attribute_values": ["CreateDatasetContent", "DataProcessing", "ProcessedDataStorage", "RawDataStorage"]}

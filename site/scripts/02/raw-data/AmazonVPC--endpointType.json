@@ -1,0 +1,1 @@
+{"service_code": "AmazonVPC", "attribute": "endpointType", "attribute_values": ["FIPS140-2", "IPsec"]}
